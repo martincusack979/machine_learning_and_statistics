@@ -11,4 +11,6 @@ reference for train test split
 
 https://www.kaggle.com/code/grim1412/seaborn-visualization-and-knn-on-the-iris-dataset
 
-reference for 
+reference for seaborn visualisation
+
+https://www.kaggle.com/code/grim1412/seaborn-visualization-and-knn-on-the-iris-dataset
