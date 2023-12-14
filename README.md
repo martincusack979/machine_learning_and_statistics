@@ -14,3 +14,10 @@ https://www.kaggle.com/code/grim1412/seaborn-visualization-and-knn-on-the-iris-d
 reference for seaborn visualisation
 
 https://www.kaggle.com/code/grim1412/seaborn-visualization-and-knn-on-the-iris-dataset
+
+### Task 5
+
+Perform Principal Component Analysis on the iris data set, reducing the number of dimensions to two. Explain the purpose
+of the analysis and your results.
+
+Principal component analysis (PCA) is a useful tool for interpreting and analysing multi-dimensional data, such as the Iris data set.  It can be used in conjunction with Seaborn to create 2-dimensional visualisations which allow us to determine the separability of the data. In this task we will take the four variables in the Iris data set (sepal length, sepal width, petal length and petal width) and using PCA we can reduce the dimensionality of the data and therefore gain a deeper understanding of the variables in the Iris data set.
