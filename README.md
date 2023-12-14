@@ -45,7 +45,7 @@ Reference for seaborn visualisation:
 
 https://www.kaggle.com/code/grim1412/seaborn-visualization-and-knn-on-the-iris-dataset
 
-### Task 5
+## Task 5
 
 Perform Principal Component Analysis on the iris data set, reducing the number of dimensions to two. Explain the purpose
 of the analysis and your results.
