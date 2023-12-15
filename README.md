@@ -52,4 +52,8 @@ of the analysis and your results.
 
 Principal component analysis (PCA) is a useful tool for interpreting and analysing multi-dimensional data, such as the Iris data set.  It can be used in conjunction with Seaborn to create 2-dimensional visualisations which allow us to determine the separability of the data. In this task we will take the four variables in the Iris data set (sepal length, sepal width, petal length and petal width) and using PCA we can reduce the dimensionality of the data and therefore gain a deeper understanding of the variables in the Iris data set.
 
+When we create a new PCA instance, if we specify "(n_components=2)" using the N_components parameter we can reduce the number of dimensions to two.
+
+We can apply dimensionality reduction to the data using the "transform" method.
+
 Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
