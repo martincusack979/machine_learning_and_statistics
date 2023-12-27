@@ -34,7 +34,11 @@ mass of male and female gentoo penguins
 
 ## Task 4 
 
-The Iris data set is based on measurements taken from three different species of Iris flower: Setosa, Versicolor and Virginica.  There are four measurements provided for each sample of these species:  sepal length, sepal width, petal length and petal width.  One way of establishing whether the setosa class of Iris flower is easily separable from the other two classes is to train a machine learning algorithm (such as K Nearest Neighbours) so that it can make predictions on which class a data point belongs to based on the available information. We can then produce a visualisation to further illustrate whether the setosa class is in fact easily separable from the other two classes.
+The Iris data set is based on measurements taken from three different species of Iris flower: Setosa, Versicolor and Virginica.  
+There are four measurements provided for each sample of these species:  sepal length, sepal width, petal length and petal width.  
+One way of establishing whether the setosa class of Iris flower is easily separable from the other two classes is to train a 
+machine learning algorithm (such as K Nearest Neighbours) so that it can make predictions on which class a data point belongs to 
+based on the available information. We can then produce a visualisation to further illustrate whether the setosa class is in fact easily separable from the other two classes.
 
 
 Reference for train test split:
@@ -50,7 +54,10 @@ https://www.kaggle.com/code/grim1412/seaborn-visualization-and-knn-on-the-iris-d
 Perform Principal Component Analysis on the iris data set, reducing the number of dimensions to two. Explain the purpose
 of the analysis and your results.
 
-Principal component analysis (PCA) is a useful tool for interpreting and analysing multi-dimensional data, such as the Iris data set.  It can be used in conjunction with Seaborn to create 2-dimensional visualisations which allow us to determine the separability of the data. In this task we will take the four variables in the Iris data set (sepal length, sepal width, petal length and petal width) and using PCA we can reduce the dimensionality of the data and therefore gain a deeper understanding of the variables in the Iris data set.
+Principal component analysis (PCA) is a useful tool for interpreting and analysing multi-dimensional data, such as the Iris
+data set.  It can be used in conjunction with Seaborn to create 2-dimensional visualisations which allow us to determine the
+separability of the data. In this task we will take the four variables in the Iris data set (sepal length, sepal width, petal
+length and petal width) and using PCA we can reduce the dimensionality of the data and therefore gain a deeper understanding of the variables in the Iris data set.
 
 When we create a new PCA instance, if we specify "(n_components=2)" using the N_components parameter we can reduce the number of dimensions to two.
 
@@ -58,10 +65,17 @@ We can apply dimensionality reduction to the data using the "transform" method.
 
 ![pairplot](https://github.com/martincusack979/machine_learning_statistics/blob/main/pairplot.png)
 
-From the above visualisation, carried out after using PCA to reduce the dimensions of the data set, we can see that the Setosa class is clearly separable from the other classes. However, the Versicolor and Virginica classes are much closer together in proximity and share a degree of overlap. This would mean that a basic machine learning classifier, such as K Nearest Neighbours, may have some difficulty separating the classes.  In the following cells we will run Principal Component Analysis again, only this time we will use a standard scaler to further transform the data set so that each of the numerical variables is centered on 0, with a variance of 1.  This ultimately should allow K Nearest Neighbours to make more effective predictions based on the available data.
+From the above visualisation, carried out after using PCA to reduce the dimensions of the data set, we can see that the Setosa class
+is clearly separable from the other classes. However, the Versicolor and Virginica classes are much closer together in proximity and 
+share a degree of overlap. This would mean that a basic machine learning classifier, such as K Nearest Neighbours, may have some difficulty
+separating the classes.  In the following cells we will run Principal Component Analysis again, only this time we will use a standard scaler
+to further transform the data set so that each of the numerical variables is centered on 0, with a variance of 1.  This ultimately should 
+allow K Nearest Neighbours to make more effective predictions based on the available data.
 
 I then used seaborn to create another pair plot.  As we can see from the resulting visualisation, it remains difficult to separate the Versicolor and Virginica classes, even after running PCA again with the scaled data.
 
-As we can see from the above score, the K Nearest Neighbours classifier performs exceptionally well when it makes predictions on the scaled data.  This illustrates the importance of using a scaler before performing machine learning operations on a given set of data. It is also quite a surprising result considering the slight overlap between Versicolor and Virginia which was evident after performing Principal Component Analysis.
+As we can see from the above score, the K Nearest Neighbours classifier performs exceptionally well when it makes predictions on the scaled data.
+This illustrates the importance of using a scaler before performing machine learning operations on a given set of data. It is also quite a 
+surprising result considering the slight overlap between Versicolor and Virginia which was evident after performing Principal Component Analysis.
 
 Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
