@@ -63,7 +63,7 @@ When we create a new PCA instance, if we specify "(n_components=2)" using the N_
 
 We can apply dimensionality reduction to the data using the "transform" method.
 
-![pairplot](https://github.com/martincusack979/machine_learning_statistics/blob/main/pairplot.png)
+![pairplot](https://github.com/martincusack979/machine_learning_statistics/blob/main/Images/pairplot.png)
 
 From the above visualisation, carried out after using PCA to reduce the dimensions of the data set, we can see that the Setosa class
 is clearly separable from the other classes. However, the Versicolor and Virginica classes are much closer together in proximity and 
