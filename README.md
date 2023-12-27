@@ -1,12 +1,19 @@
 # Machine Learning and Statistics
 
-This repository is submitted as partial fullfillment of a H.Dip in Data Analytics in Computing.
+This repository is submitted as partial fullfillment of a H.Dip in Science in Data Analytics.
 
-Martin Cusack
-Student ID: G00239124
+**Martin Cusack**
+**Student ID: G00239124**
 ***
 
 This repository contains two Jupyter notebooks(project.ipynb and tasks.ipynb), a data folder, an images folder, a .gitignore file and a readme file.
+
+To open this repository:
+1. Install Anaconda 
+2. Install Visual Studio Code
+3. Clone repository at https://github.com/martincusack979/machine_learning_statistics
+4. Open repository in Visual Studio Code
+5. Use the Python interpreter 3.9.18 **(check this)**
 
 ## Task 1
 
