@@ -4,7 +4,9 @@ This repository is submitted as partial fullfillment of a H.Dip in Data Analytic
 
 Martin Cusack
 Student ID: G00239124
-This repository contains a Jupyter notebook, a dataset folder, a .gitignore file and a readme file.
+***
+
+This repository contains two Jupyter notebooks(project.ipynb and tasks.ipynb), a data folder, an images folder, a .gitignore file and a readme file.
 
 ## Task 1
 
