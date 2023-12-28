@@ -14,7 +14,7 @@ To open this repository:
 2. Install Visual Studio Code
 3. Clone repository at https://github.com/martincusack979/machine_learning_statistics
 4. Open repository in Visual Studio Code
-5. Use the Python interpreter 3.9.18 **(check this)**
+5. Use the Python interpreter 3.9.18 
 
 ## Task 1
 
