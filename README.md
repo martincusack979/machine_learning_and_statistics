@@ -26,7 +26,7 @@ images folder, a .gitignore file and a readme file.
 4. Open the epository in Visual Studio Code.
 5. Use the Python interpreter 3.9.18.
 
-# Tasks
+## Tasks
 ***
 
 ## Task 1
@@ -106,7 +106,7 @@ Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decompositi
 ## End
 ***
 
-# Project
+## Project
 ***
 
 
