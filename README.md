@@ -1,21 +1,33 @@
 # Machine Learning and Statistics
 
-This repository is submitted as partial fullfillment of a H.Dip in Science in Data Analytics.
+This repository is submitted in partial fullfillment of a H.Dip in Science in Data Analytics.
 
 **Martin Cusack**
 
 **Student ID: G00239124**
 ***
 
+## Contents 
+1. Introduction
+2. Tasks
+3. Project
+
+## Introduction
+***
+
 This repository contains two Jupyter notebooks(project.ipynb and tasks.ipynb), a data folder, an 
 images folder, a .gitignore file and a readme file.
 
-To open this repository:
-1. Install Anaconda 
-2. Install Visual Studio Code
-3. Clone repository at https://github.com/martincusack979/machine_learning_statistics
-4. Open repository in Visual Studio Code
-5. Use the Python interpreter 3.9.18 
+**How to use this repository**
+
+1. Install latest version of Anaconda.
+2. Install the latest version of Visual Studio Code.
+3. Clone the repository at https://github.com/martincusack979/machine_learning_statistics
+4. Open the epository in Visual Studio Code.
+5. Use the Python interpreter 3.9.18.
+
+# Tasks
+***
 
 ## Task 1
 
@@ -90,3 +102,11 @@ This illustrates the importance of using a scaler before performing machine lear
 surprising result considering the slight overlap between Versicolor and Virginia which was evident after performing Principal Component Analysis.
 
 Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.PCA.html
+
+## End
+***
+
+# Project
+***
+
+
