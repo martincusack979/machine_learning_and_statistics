@@ -11,6 +11,7 @@ This repository is submitted in partial fullfillment of a H.Dip in Science in Da
 1. Introduction
 2. Tasks
 3. Project
+4. Conclusion
 
 ## Introduction
 ***
@@ -108,5 +109,24 @@ Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decompositi
 
 ## Project
 ***
+
+ ## Introduction
+ 
+ In this notebook, I will deploy a variety of machine learning algorithms to make classifications and predictions based on the widely-studied Fisher's Iris flower data set.  This data set first appeared in biologist Ronald Fisher's 1936 paper "The Use of Multiple Measurements in Taxonomic Problems".  Fisher's work has been highly influential in the fields of data science and machine learning over the decades since its publication and has been referenced on innumerable occasions by teachers and academics.
+
+ Fisher's data set comprises a study of three different species of the Iris flower (Iris setosa, Iris virginica and Iris versicolor) and
+ contains six columns: ID, SepalLengthCm, SepalWidthCm, PetalLengthCm, PetalWidthCm and Species. I will fit and train a number of machine learning algorithms on this data in order to assess their relative accuracy in determining the class of each sample.
+
+
+ ### Supervised learning
+
+ There are currently two main approaches to machine learning: supervised learning and unsupervised learning.  Supervised learning is an approach generally used when dealing with labeled datasets, and uses the available data to train algorithms to accurately classify data and make predictions. By using inputs and outputs, the training model can learn from the data and as a result produce accurate outcomes.  
+ 
+ By contrast, unsupervised learning is an approach generally used with unlabeled datasets. They do not require human intervention, hence are "unsupervised".  Unsupervised techniques are often used in the preprocessing stage of machine learning in order to reduce the dimensionality of a given data set. [1]
+ 
+
+ ### Classification algorithms
+
+ Classification algorithms are used in the machine learning process in order to make predictions and categorise data (an example being an email spam detector).  Examples of commonly-used classifiers include K Nearest Neighbors, Support Vector Machines (SVM), Naive Bayes and Random Forest.
 
 
