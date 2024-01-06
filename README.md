@@ -14,7 +14,6 @@ This repository is submitted in partial fullfillment of a H.Dip in Science in Da
 4. Conclusion
 
 ## Introduction
-***
 
 This repository contains two Jupyter notebooks(project.ipynb and tasks.ipynb), a data folder, an 
 images folder, a .gitignore file and a readme file.
@@ -28,7 +27,6 @@ images folder, a .gitignore file and a readme file.
 5. Use the Python interpreter 3.9.18.
 
 ## Tasks
-***
 
 ## Task 1
 
