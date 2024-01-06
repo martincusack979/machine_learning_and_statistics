@@ -132,4 +132,6 @@ Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decompositi
 Classification algorithms are used in the machine learning process in order to make predictions and categorise data (an example being an email spam detector).  Examples of commonly-used
 classifiers include K Nearest Neighbors, Support Vector Machines (SVM), Naive Bayes and Random Forest.
 
+## End
+***
 
