@@ -137,7 +137,7 @@ Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decompositi
  
  By contrast, unsupervised learning is an approach generally used with unlabeled datasets. They do not require human intervention, 
  hence are "unsupervised".  Unsupervised techniques are often used in the preprocessing stage of machine learning in order to
- reduce the dimensionality of a given data set. [1]
+ reduce the dimensionality of a given data set.
  
 
  ### Classification algorithms
@@ -151,8 +151,11 @@ Naive Bayes and Random Forest.
 Evaluation using cross vaildation allows us to gain a good overall sense of the accuracy of a given algorithm. Cross validation 
 works by dividing the data up into subsets or "folds" and using each of these folds as a validation set.  The average of each result
 is then calculated to give a final score. Using cross validation can help "to ensure that the model selected for deployment is robust 
-and generalizes well to new data".[5]  In the below cell, I will run cross-validation with five folds to determine the accuracy of 
+and generalizes well to new data". In the below cell, I will run cross-validation with five folds to determine the accuracy of 
 the K Nearest Neighbours algorithm.
+
+## End
+***
 
 ### References
 
