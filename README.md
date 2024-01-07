@@ -8,10 +8,9 @@ This repository is submitted in partial fullfillment of a H.Dip in Science in Da
 ***
 
 ## Contents 
-1. Introduction
-2. Tasks
-3. Project
-4. Conclusion
+* Introduction
+* Tasks
+* Project
 
 ## Introduction
 
@@ -20,11 +19,11 @@ images folder, a .gitignore file and a readme file.
 
 **How to use this repository**
 
-1. Install latest version of Anaconda.
-2. Install the latest version of Visual Studio Code.
-3. Clone the repository at https://github.com/martincusack979/machine_learning_statistics
-4. Open the repository in Visual Studio Code.
-5. Use the Python interpreter 3.9.18.
+* Install latest version of Anaconda.
+* Install the latest version of Visual Studio Code.
+* Clone the repository at https://github.com/martincusack979/machine_learning_statistics
+* Open the repository in Visual Studio Code.
+* Use the Python interpreter 3.9.18.
 
 # Tasks
 
