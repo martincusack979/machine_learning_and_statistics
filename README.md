@@ -15,7 +15,7 @@ This repository is submitted in partial fullfillment of a H.Dip in Science in Da
 
 ## Introduction
 
-This repository contains two Jupyter notebooks(project.ipynb and tasks.ipynb), a data folder, an 
+This repository contains two Jupyter notebooks(*project.ipynb* and *tasks.ipynb*), a data folder, an 
 images folder, a .gitignore file and a readme file.
 
 **How to use this repository**
@@ -119,7 +119,7 @@ Reference: https://scikit-learn.org/stable/modules/generated/sklearn.decompositi
  In this notebook, I will deploy a variety of machine learning algorithms to make classifications and predictions based 
  on the widely-studied Fisher's Iris flower data set.
  This data set first appeared in biologist Ronald Fisher's 1936 paper "The Use of Multiple Measurements in Taxonomic Problems". 
-  Fisher's work has been highly influential 
+ Fisher's work has been highly influential 
  in the fields of data science and machine learning over the decades since its publication and has been referenced on
  innumerable occasions by teachers and academics.
 
